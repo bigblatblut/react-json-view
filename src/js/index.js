@@ -102,6 +102,7 @@ class ReactJsonView extends React.PureComponent {
             addKeyRequest: false,
             editKeyRequest: false
         });
+        alert("TEST123");
     }
 
     componentDidUpdate(prevProps, prevState) {
