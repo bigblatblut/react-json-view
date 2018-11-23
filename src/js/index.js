@@ -213,6 +213,7 @@ class ReactJsonView extends React.PureComponent {
                     defaultValue={defaultValue} />
             </div>
         );
+        alert('TEST');
     }
 
     updateSrc = () => {
